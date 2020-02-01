@@ -27,3 +27,13 @@ You should create one R script called run_analysis.R that does the following.
     Uses descriptive activity names to name the activities in the data set
     Appropriately labels the data set with descriptive variable names.
     From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+
+
+GettingData.R is structured based on above requirements in few sections and below order:
+- PRE REQUIREMENT LOADING SETTING WORKING DIRECTORY AND ACCESSING DATA
+- REQUIREMENT 2 Extracts only the measurements on the mean and standard deviation for each measurement. To optimize the load of data to only std and mean for REQUIREMENT 1
+- REQUIREMENT 1 Merges the training and the test sets to create one data set.
+- REQUIREMENT 3 Uses descriptive activity names to name the activities in the data set
+- REQUIREMENT 4 Appropriately labels the data set with descriptive variable names.
+- REQUIREMENT 5 From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+
